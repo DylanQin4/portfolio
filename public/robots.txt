@@ -1,0 +1,8 @@
+# public/robots.txt
+
+# Autorise tous les robots à indexer tout le site
+User-agent: *
+Allow: /
+
+# Indique l’emplacement du sitemap
+Sitemap: https://www.dylanqin.dev/sitemap.xml
