@@ -27,18 +27,18 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { id: "accueil", icon: FaHome, text: "Accueil", path: "/" },
+    { id: "accueil", icon: FaHome, text: "À propos", path: "/" },
     { id: "competences", icon: FaCode, text: "Compétences", path: "/skills" },
     {
       id: "experience",
       icon: FaBriefcase,
-      text: "Expérience",
+      text: "Expériences",
       path: "/experience",
     },
     {
       id: "formation",
       icon: FaGraduationCap,
-      text: "Formation",
+      text: "Formations",
       path: "/education",
     },
     { id: "projets", icon: FaLaptopCode, text: "Projets", path: "/projects" },
