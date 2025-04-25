@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Indique l’emplacement du sitemap
-Sitemap: https://www.dylanqin.dev/sitemap.xml
+Sitemap: https://www.dylanqin.engineer/sitemap.xml

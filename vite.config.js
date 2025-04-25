@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://www.dylanqin.dev',
+      hostname: 'https://www.dylanqin.engineer/',
       routes: [
         '/', 
         '/skills',
