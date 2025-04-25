@@ -135,7 +135,11 @@ public class Profile {
                   <SparklesText text="Enchanté !" />
                   <span className="relative inline-block">
                     Moi c’est
-                    <span className="typing-effect gradient-text">
+                    <span className="hidden sm:inline typing-effect gradient-text">
+                      {" "}
+                      Dylan Qin
+                    </span>
+                    <span className="sm:hidden gradient-text">
                       {" "}
                       Dylan Qin
                     </span>
@@ -233,7 +237,11 @@ public class Profile {
 
         {/* Indicateur de défilement */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
-          <span className="text-gray-400 text-sm flex items-center gap-2">
+          <span className="hidden sm:inline text-gray-400 text-sm">
+            <i className="fas fa-mouse text-blue-400"></i>
+            À propos de moi
+          </span>
+          <span className="sm:hidden text-gray-400 text-sm flex items-center gap-2">
             <i className="fas fa-mouse text-blue-400"></i>
             À propos de moi
           </span>
