@@ -19,80 +19,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 Check out the live preview of the portfolio website here:  
 [**Live Demo**](https://dylanqin.engineer/)
----
-### 🎯 Project Structure
-```bash
-portfolio/
-├── node_modules/
-├── public/
-├── src/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   ├── index.css
-│   │   │   └── tomorrow.css
-│   │   └── images/
-│   ├── components/
-│   │   ├── ui/
-│   │   │   ├── Reusable Components/
-│   │   │   │   ├── badge.jsx
-│   │   │   │   ├── button.jsx
-│   │   │   │   ├── card.jsx
-│   │   │   │   ├── EducationLoader.jsx
-│   │   │   │   ├── evervault-card.jsx
-│   │   │   │   ├── flip-words.jsx
-│   │   │   │   ├── icon-cloud.jsx
-│   │   │   │   ├── meteors.jsx
-│   │   │   │   ├── sparkles-text.jsx
-│   │   │   │   └── tooltip.jsx
-│   │   │   │
-│   │   │   ├── Main Components/
-│   │   │   │   ├── AnimatedGrid.jsx
-│   │   │   │   ├── Contact.jsx
-│   │   │   │   ├── Education.jsx
-│   │   │   │   ├── enhanced-portfolio-card.jsx
-│   │   │   │   ├── Experience.jsx
-│   │   │   │   ├── global.jsx
-│   │   │   │   ├── Header.jsx
-│   │   │   │   ├── Hero.jsx
-│   │   │   │   ├── Home.jsx
-│   │   │   │   ├── PortfolioPage.jsx
-│   │   │   │   ├── Projects.jsx
-│   │   │   │   └── Skills.jsx
-│   │   └── lib/
-│   │       └── utils.js
-│   ├── pages/
-│   │   ├── About/
-│   │   │   └── About.jsx
-│   │   ├── Contact/
-│   │   │   └── Contact.jsx
-│   │   ├── Experience/
-│   │   │   └── Experience.jsx
-│   │   ├── Header/
-│   │   │   └── Header.jsx
-│   │   ├── Hero/
-│   │   │   └── Hero.jsx
-│   │   ├── Projects/
-│   │   │   ├── Projects.jsx
-│   │   │   └── testProjects.jsx
-│   │   └── Skills/
-│   │       └── Skills.jsx
-│   ├── App.jsx
-│   └── main.jsx
-├── Configuration Files/
-│   ├── .eslintrc.js
-│   ├── .gitignore
-│   ├── components.json
-│   ├── index.html
-│   ├── jsconfig.json
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── README.md
-│   ├── tailwind.config.js
-│   ├── vercel.json
-│   └── vite.config.js
 
-```
 ---
 
 ## Sections of the Portfolio
@@ -172,16 +99,4 @@ Open your browser and visit http://localhost:5173/ to see the result! 🎉
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
-
-### 🤝 Contributing
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-<div align="center"> Made with ❤️ by Dylan Qin </div>
 
