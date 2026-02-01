@@ -35,7 +35,7 @@ The portfolio website consists of the following sections:
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 - **Frontend:** React.js with Vite
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
@@ -44,7 +44,7 @@ The portfolio website consists of the following sections:
 
 ---
 
-## Installation ⬇️
+## Installation
 
 You will need to download **Git** and **Node** to run this project.
 
@@ -65,37 +65,37 @@ You will need to download **Git** and **Node** to run this project.
   node --version
   ```
 
-# Getting Started 🎯
+# Getting Started
 
-### Fork and Clone the Repository 🚀
+### Fork and Clone the Repository
 1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
   ```bash
   git clone https://github.com/DylanQin/portfolio.git
   ```
-Navigate to the Project Directory 📂
+Navigate to the Project Directory
 Once the repository is cloned, change your directory to the project folder:
 ```bash
 cd portfolio
 ```
 
-Install Dependencies ⚙️
+Install Dependencies
 From the root directory of your project, install the necessary packages:
 ```bash
 npm install
 ```
 
-Run the Development Server 🚀
+Run the Development Server
 Start the development server to see your project live:
 ```bash
 npm run dev
 ```
 
-View the Project 🌐
-Open your browser and visit http://localhost:5173/ to see the result! 🎉
+View the Project
+Open your browser and visit http://localhost:5173/ to see the result!
 
-## 📝 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---

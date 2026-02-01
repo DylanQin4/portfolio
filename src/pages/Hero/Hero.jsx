@@ -42,34 +42,36 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Développeur Full-Stack Java & React passionné",
-    "Amoureux de la tech & explorateur de l'informatique",
-    "Code propre, performant & maintenable",
-    "Builder de solutions modernes avec Java, Spring & Docker",
-    "Frontend dynamique avec React, Next.js & Tailwind",
-    "Apprentissage continu & soif de compréhension",
-    "Fan de finance & aspirant trader rentable",
-    "Automatisation, optimisation & DevOps mindset",
-    "UI animées, pixel perfect & fluidité avec Framer Motion",
-    "Toujours prêt à résoudre des problèmes complexes"
-  ];  
+    "Développeur Full-Stack Java, C# & Front SPA",
+    "Backend solide avec Spring Boot & ASP.NET Core",
+    "Frontend dynamique en React, Angular & Next.js",
+    "Code propre, maintenable & orienté Clean Architecture",
+    "Principes SOLID, bases du DDD & TDD au coeur du développement",
+    "Builder de solutions modernes avec Java, C# & Typescript",
+    "Docker, automatisation & culture DevOps",
+    "UI modernes et animées avec Framer Motion",
+    "Curieux, autodidacte & en apprentissage constant",
+    "Passionné par la tech et la résolution de problèmes"
+  ];
 
   const [code] = useState(`
 public class Profile {
     private String name = "Dylan Qin";
-    private String title = "Développeur Full-Stack | Problem Solving";
-    private List<String> skills = Arrays.asList(
-        "React", "NextJS", "Tailwindcss", "Framer Motion",
-        "Oracle", "Postgresql", "Mysql", "MongoDB",
-        "Java", "C#", "C/C++, "PHP", "Python", "Typescript",
-        "Git", "Docker", "AWS"
+    private String title = "Développeur Full-Stack | Java, .NET & Front SPA";
+    private List<String> stack = Arrays.asList(
+        "Java / Spring", "C# / ASP.NET Core",
+        "Angular", "React", "React Native",
+        "SOLID", "Clean Architecture",
+        "Oracle", "SQL Server", "PostgreSQL", 
+        "Docker", "Git"
     );
-    private boolean hardWorker = true;
+    private boolean proactive = true;
     private boolean quickLearner = true;
+    private boolean teamPlayer = true;
     private boolean problemSolver = true;
 
     public boolean isHireable() {
-        return hardWorker && problemSolver && skills.size() >= 5;
+        return proactive && problemSolver && quickLearner && stack.size() >= 10;
     }
     
     // Getters and setters
@@ -162,7 +164,7 @@ public class Profile {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  Full-stack polyvalent 🛠️ | React, Java & Cloud dans le même cerveau 🤯 | Passionné par la performance et l’élégance du code 🎯
+                  Full-stack polyvalent | Java & .NET dans le même cerveau | Passionné par la performance et l’élégance du code
                 </p>
               </div>
 
@@ -203,7 +205,7 @@ public class Profile {
               </div>
               <div className="hidden lg:block absolute right-10 top-20 animate-float">
                 <div className="px-4 py-2 rounded-lg bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 text-blue-400">
-                  <i className="fas fa-code"></i>&nbsp;&nbsp;Secure by Design
+                  <i className="fas fa-code"></i>&nbsp;&nbsp;Clean Architecture
                 </div>
               </div>
               <div className="hidden lg:block absolute top-[17rem] left-[70%] transform -translate-x-1/2 animate-float">

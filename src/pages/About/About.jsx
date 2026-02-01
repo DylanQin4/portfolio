@@ -23,8 +23,10 @@ export default function About() {
 
             <div className="relative space-y-6">
               <p className="text-white">
-                Salut ! Je suis <span className="font-bold">Dylan Qin</span>, développeur full-stack animé par la curiosité et l’envie de bâtir des expériences numériques marquantes.  
-                Qu’il s’agisse de <span className="font-bold">React</span> en frontend ou de <span className="italic">Spring/Java</span> en backend, j’adore passer de l’idée au code opérationnel.
+                Salut ! Je suis <span className="font-bold">Dylan Qin</span>, développeur full-stack orienté qualité logicielle.  
+                J’interviens sur des applications <span className="font-bold">SPA</span> avec <span className="font-bold">Angular</span> et <span className="font-bold">React</span>, 
+                ainsi que sur des backends en <span className="italic">Java/Spring</span> et <span className="italic">ASP.NET Core</span>, 
+                en appliquant les bonnes pratiques de conception.
               </p>
 
               <p className="text-white">
@@ -32,13 +34,12 @@ export default function About() {
               </p>
 
               <p className="text-white">
-                <span className="font-semibold">Mon objectif</span> ? Devenir un expert full-stack capable de piloter tout le cycle de vie d’une application, en intégrant les meilleures pratiques DevOps et une méthodologie rigoureuse.  
-                J’aspire à déployer des architectures résilientes et performantes, tout en cultivant la créativité et la souplesse du frontend.
-              </p>
-
-              <p className="text-white">
-                En parallèle, je me passionne pour la finance et le <span className="font-semibold">trading</span> : un terrain où l’analyse, la stratégie et la patience sont aussi essentielles que dans le développement.  
-                Cette double discipline me pousse chaque jour à affiner mon regard, qu’il s’agisse d’un algorithme ou d’un graphique boursier.
+                <span className="font-semibold">Mon objectif</span> ? Devenir un développeur full-stack capable de piloter l’ensemble du cycle de vie d’une 
+                <span className="font-semibold"> application d’entreprise</span>, en appliquant des 
+                <span className="font-semibold"> bonnes pratiques de conception</span> telles que le 
+                <span className="italic"> DDD</span>, la <span className="italic">Clean Architecture</span> et une méthodologie rigoureuse.  
+                J’aspire à concevoir et déployer des <span className="font-semibold">architectures sécurisées, résilientes et performantes</span>, 
+                en intégrant une culture <span className="font-semibold">DevOps</span>, tout en cultivant la créativité et la souplesse du frontend.
               </p>
 
               <div className="pt-6">
