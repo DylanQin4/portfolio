@@ -56,6 +56,7 @@ export default function Hero() {
 
   const [code] = useState(`
 public class Profile {
+    private static final int MIN_STACK_SIZE = 10;
     private String name = "Dylan Qin";
     private String title = "Développeur Full-Stack | Java, .NET & Front SPA";
     private List<String> stack = Arrays.asList(
@@ -71,7 +72,7 @@ public class Profile {
     private boolean problemSolver = true;
 
     public boolean isHireable() {
-        return proactive && problemSolver && quickLearner && stack.size() >= 10;
+        return proactive && problemSolver && quickLearner && stack.size() >= MIN_STACK_SIZE;
     }
     
     // Getters and setters

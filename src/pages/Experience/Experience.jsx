@@ -140,12 +140,20 @@ const ExperienceCard = ({ title, company, period, description, icon: Icon, index
 const ExperienceSection = () => {
   const experiences = [
     {
+      icon: Network,
+      title: "Développeur Fullstack .NET / Angular / React Native (Stage)",
+      company: "Auto-école FIDY",
+      period: "Septembre 2024 - Février 2025",
+      description:
+        "Stage réalisé dans le cadre du développement d’une solution numérique pour une auto-école. J’ai travaillé sur la gestion des indisponibilités des ressources (congés des moniteurs, maintenance des véhicules, fermeture des bureaux), la gestion des réservations et les contraintes de planning. Le projet comprenait également une application mobile de quiz de code de la route, conçue pour fonctionner hors ligne. La partie métier a été développée en appliquant les principes SOLID, les bases du DDD et du TDD, ainsi que la Clean Architecture."
+    },
+    {
       icon: Code2,
-      title: "Développeur Fullstack Django/NextJs",
+      title: "Développeur Fullstack Django / NextJs",
       company: "Code-Talent",
       period: "Avril 2024 - Août 2024",
       description:
-          "En tant que développeur fullstack chez Code-Talent, j'ai contribué à plusieurs projets web, notamment les plateformes MyAsa et Artizaho, ainsi que diverses landing pages interactives en Next.js. En parallèle, j'ai été impliqué dans des tâches DevOps, de la mise en place des conteneurs Docker jusqu'au déploiement des projets.",
+          "En tant que développeur fullstack chez Code-Talent, j'ai contribué à plusieurs projets web, notamment les plateformes MyAsa et Artizaho, ainsi que diverses landing pages interactives en Next.js. J’ai également pris en charge la création des conteneurs Docker et le déploiement des applications sur un serveur VPS.",
     },
     {
       icon: Layers,
@@ -159,15 +167,15 @@ const ExperienceSection = () => {
       icon: Code2,
       title: "Développeur React",
       company: "Pereeple",
-      period: "Nov 2023 - Avril 2024",
+      period: "Novembre 2023 - Avril 2024",
       description:
-          "Création d'une plateforme web avec React et TypeScript pour la planification de voyages, incluant l'ajout d'événements comme des hôtels, transports, services et activités. Intégration d'une fonction de génération de factures PDF et gestion des fournisseurs avec leurs tarifs.",
+        "Développement d’une plateforme SaaS de planification de voyages, permettant la gestion complète des itinéraires, des voyageurs et des réservations. J’ai travaillé sur des fonctionnalités clés telles que la gestion des hôtels, transports, le suivi des fournisseurs, ainsi que la génération de documents (factures, commandes) en PDF via une interface React en TypeScript."
     },
     {
       icon: Network,
       title: "Web Designer Freelance",
       company: "Gomed",
-      period: "Juin 2020 - Nov 2020",
+      period: "Juin 2020 - Novembre 2020",
       description:
           "Conception d'une maquette sur Figma pour un site vitrine de pharmacie, suivie de son intégration en HTML/CSS avec un design responsive.",
     },

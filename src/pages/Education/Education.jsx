@@ -7,34 +7,35 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "BACC+3 en informatique",
+      degree: "Licence en Informatique",
       school: "ITUniversity, Antananarivo",
-      mascot: "🎓",
-      year: "Sept 2020 - Présent",
+      mascot: null,
+      year: "Septembre 2021 - Décembre 2025",
       achievements: ["Spécialisation en développement logiciel", "Plusieurs projets réalisés"],
-      skills: ["Java", "React", "Spring", "Django", "C#", "C/C++", "SQL", "..."],
+      skills: ["Java", "React", "Spring", "PHP", "C#", "C/C++", "SQL", "..."],
       description:
-          "Formation universitaire approfondie couvrant les technologies backend et frontend, avec une forte composante projet et application concrète des connaissances.",
+        "Formation au sein de l’une des universités de référence à Madagascar, axée sur une approche fortement orientée projets. Au-delà de l’apprentissage des technologies, cette formation m’a permis de développer des compétences en gestion de projet, prise en main de projets existants et travail sous contraintes de délais, dans des contextes proches du monde professionnel.",
+
     },
     {
       degree: "Formation en développement web",
       school: "Sayna",
-      mascot: "💻",
-      year: "Fév 2020 - Juin 2020",
+      mascot: null,
+      year: "Février 2020 - Juin 2020",
       achievements: ["Formation intensive", "Focus sur les bases du développement web"],
-      skills: ["HTML", "CSS", "JavaScript", "React", "Ruby On Rails", "Git"],
+      skills: ["HTML", "CSS", "JavaScript", "React", "Ruby On Rails", "Git", "..."],
       description:
-          "Initiation au développement web avec des projets pratiques et des fondations solides en intégration web et logique de programmation.",
+          "Formation intensive en développement web, axée sur la pratique et l’apprentissage par projets. Cette expérience m’a permis d’acquérir des bases solides en intégration web, en logique de programmation et en travail collaboratif, tout en développant une réelle autonomie technique.",
     },
     {
       degree: "Baccalauréat Série C",
       school: "Lycée Privé Kanana Madagascar, Antsirabe",
-      mascot: "📐",
+      mascot: null,
       year: "2019",
       achievements: ["Spécialité Mathématiques et Sciences Physiques"],
-      skills: ["Mathématiques", "Physique", "Chimie", "Informatique Bureautique", "Philosophie", "Anglais"],
+      skills: ["Mathématiques", "Physique", "Chimie", "Informatique Bureautique", "Philosophie", "Anglais", "Français", "..."],
       description:
-          "Formation scientifique rigoureuse avec un fort accent sur les mathématiques et les sciences physiques, préparation solide aux études supérieures en informatique et ingénierie.",
+          "Formation scientifique avec un fort accent sur les mathématiques et les sciences physiques, préparation solide aux études supérieures en informatique.",
     },
   ]
 
@@ -165,7 +166,7 @@ const EducationSection = () => {
                         >
                           <div className="space-y-6">
                             <div className="space-y-2">
-                              <div className="flex items-center gap-3">
+                              <div className="flex items-center">
                                 <motion.span
                                     className="text-3xl"
                                     animate={{ rotate: hoveredIndex === index ? 360 : 0 }}

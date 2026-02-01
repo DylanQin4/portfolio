@@ -117,7 +117,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Localisation</h3>
-                    <p className="text-gray-400">Tanjombato, 101 Antananarivo, Madagascar</p>
+                    <p className="text-gray-400">Tanjombato, 102 Antananarivo, Madagascar</p>
                   </div>
                 </div>
               </div>

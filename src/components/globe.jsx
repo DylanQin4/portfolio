@@ -10,54 +10,55 @@ const slugs = [
   "css3",
   "tailwindcss",
   "framermotion",
-  "redux",
   "reactquery",
   "reacthookform",
   "zod",
-  
+  "angular",
+  "materialdesign",
+
   // Backend
   "java",
   "csharp",
   "php",
-  "cplusplus",
   "python",
-  "nodedotjs",
-  "express",
   "prisma",
   "oracle",
   "postgresql",
-  "mongodb",
   "firebase",
-  
+  "springboot",
+  "dotnet",
+  "microsoftsqlserver",
+  "rest",
+
   // Mobile
   "reactnative",
-  "dart",
-  "flutter",
   "android",
-  "androidstudio",
-  
+  "expo",
+
   // Cloud & DevOps
-  "amazonaws",
-  "googlecloud",
   "docker",
   "git",
   "linux",
   "nginx",
   "vercel",
-  
+  "azuredevops",
+
   // Outils
   "visualstudiocode",
   "jetbrains",
   "vite",
   "testinglibrary",
-  "cypress",
   "jira",
   "github",
   "gitlab",
-  
+  "visualstudio",
+  "postman",
+
   // Design
   "figma",
   "adobexd",
+  "responsivedesign",
+  "prototyping",
 ];
 
 function IconCloudDemo() {

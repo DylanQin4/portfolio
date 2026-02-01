@@ -3,31 +3,32 @@ import { Badge } from "@/components/ui/badge"
 import IconCloudDemo from "@/components/globe"
 import { Code2, Database, TabletSmartphone, Layout, Cpu, Cloud } from "lucide-react"
 import { motion } from "framer-motion"
-import { FaReact, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaLinux, FaFigma, FaAws, FaJava, FaPhp } from "react-icons/fa"
+import { FaReact, FaPython, FaDocker, FaGitAlt, FaLinux, FaFigma, FaJava, FaPhp } from "react-icons/fa"
 import {
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
   SiPostgresql,
-  SiMongodb,
   SiFirebase,
   SiVercel,
   SiVite,
   SiOracle,
   SiAdobexd,
-  SiGooglecloud,
   SiJetbrains,
-  SiZod,
-  SiReacthookform,
-  SiReactquery,
-  SiAndroidstudio,
-  SiDart,
+  SiAngular,
+  SiCss3,
+  SiMaterialdesign,
+  SiExpo,
+  SiSpringboot,
+  SiDotnet,
+  SiPostman,
 } from "react-icons/si"
+import { DiMsqlServer, DiVisualstudio } from "react-icons/di";
 import { TbBrandVscode, TbBrandFramerMotion, TbBrandCSharp, TbBrandReactNative } from "react-icons/tb"
-import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs"
-import { MdAnimation } from "react-icons/md"
+import { BsGrid1X2 } from "react-icons/bs"
+import { MdAnimation, MdOfflineBolt } from "react-icons/md"
 import { RiSeoLine } from "react-icons/ri"
-import { BiLogoCPlusPlus } from "react-icons/bi"
+import { VscAzureDevops } from "react-icons/vsc";
 
 const SkillCard = ({ icon: Icon, title, skills, color, index }) => {
   const cardVariants = {
@@ -142,38 +143,37 @@ const SkillsSection = () => {
       title: "Développement Frontend",
       color: "text-blue-400",
       skills: [
-        { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
+        {
+          name: "Angular",
+          icon: <SiAngular className="w-4 h-4 text-[#DD0031]" />,
+        },
+        {
+          name: "React",
+          icon: <FaReact className="w-4 h-4 text-[#61DAFB]" />,
+        },
         {
           name: "Next.js",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
+          icon: <SiNextdotjs className="w-4 h-4 text-[#FFFFFF]" />,
         },
         {
-          name: "TypeScript",
-          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
+          name: "Material Design",
+          icon: <SiMaterialdesign className="w-4 h-4 text-[#757575]" />,
         },
         {
-          name: "Zod",
-          icon: <SiZod className="w-4 h-4 text-[#F24E1E]" />,
-        },
-        {
-          name: "React Hook Form",
-          icon: <SiReacthookform className="w-4 h-4 text-[#E3342F]" />,
-        },
-        {
-          name: "React Query",
-          icon: <SiReactquery className="w-4 h-4 text-[#FF4154]" />,
+          name: "CSS3",
+          icon: <SiCss3 className="w-4 h-4 text-[#1572B6]" />,
         },
         {
           name: "Tailwind CSS",
-          icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />,
+          icon: <SiTailwindcss className="w-4 h-4 text-[#38BDF8]" />,
         },
         {
           name: "Framer Motion",
-          icon: <TbBrandFramerMotion className="w-4 h-4 text-[#F24E1E]" />,
+          icon: <TbBrandFramerMotion className="w-4 h-4 text-[#E64EFF]" />,
         },
         {
           name: "Optimisation SEO",
-          icon: <RiSeoLine className="w-4 h-4 text-[#FBBF24]" />,
+          icon: <RiSeoLine className="w-4 h-4 text-[#F59E0B]" />,
         },
       ],
     },
@@ -187,24 +187,28 @@ const SkillsSection = () => {
           icon: <FaJava className="w-4 h-4 text-[#F89820]" />,
         },
         {
+          name: "Spring Boot",
+          icon: <SiSpringboot className="w-4 h-4 text-[#6DB33F]" />,
+        },
+        {
           name: "C#",
-          icon: <TbBrandCSharp className="w-4 h-4 text-[#9B59B6]" />,
+          icon: <TbBrandCSharp className="w-4 h-4 text-[#512BD4]" />,
+        },
+        {
+          name: "ASP.NET Core",
+          icon: <SiDotnet className="w-4 h-4 text-[#512BD4]" />,
         },
         {
           name: "PHP",
           icon: <FaPhp className="w-4 h-4 text-[#777BB3]" />,
         },
         {
-          name: "C/C++",
-          icon: <BiLogoCPlusPlus className="w-4 h-4 text-[#00599C]" />,
+          name: "Typescript",
+          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
         },
         {
           name: "Python",
           icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
-        },
-        {
-          name: "Node.js",
-          icon: <FaNodeJs className="w-4 h-4 text-[#8CC84B]" />,
         },
         {
           name: "Oracle",
@@ -215,8 +219,8 @@ const SkillsSection = () => {
           icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
         },
         {
-          name: "MongoDB",
-          icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
+          name: "SQL Server",
+          icon: <DiMsqlServer className="w-4 h-4 text-[#CC2927]" />,
         },
         {
           name: "REST APIs",
@@ -234,16 +238,12 @@ const SkillsSection = () => {
           icon: <TbBrandReactNative className="w-4 h-4 text-[#61DAFB]" />,
         },
         {
-          name: "Dart",
-          icon: <SiDart className="w-4 h-4 text-[#00BFFF]" />,
+          name: "Expo",
+          icon: <SiExpo className="w-4 h-4 text-[#000020]" />,
         },
         {
-          name: "Flutter",
-          icon: <TbBrandReactNative className="w-4 h-4 text-[#02569B]" />,
-        },
-        {
-          name: "Android Studio",
-          icon: <SiAndroidstudio className="w-4 h-4 text-[#3DDC84]" />,
+          name: "Offline-first",
+          icon: <MdOfflineBolt className="w-4 h-4 text-[#F59E0B]" />,
         },
       ],
     },
@@ -252,10 +252,9 @@ const SkillsSection = () => {
       title: "Cloud & DevOps",
       color: "text-orange-400",
       skills: [
-        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
         {
-          name: "Google Cloud",
-          icon: <SiGooglecloud className="w-4 h-4 text-[#4285F4]" />,
+          name: "Azure DevOps",
+          icon: <VscAzureDevops className="w-4 h-4 text-[#0078D7]" />,
         },
         {
           name: "Docker",
@@ -277,6 +276,14 @@ const SkillsSection = () => {
         {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
+        },
+        {
+          name: "Visual Studio",
+          icon: <DiVisualstudio className="w-4 h-4 text-[#5C2D91]" />,
+        },
+        { 
+          name: "Postman", 
+          icon: <SiPostman className="w-4 h-4 text-[#FF6C37]" /> 
         },
         {
           name: "Firebase",
