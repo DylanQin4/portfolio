@@ -226,7 +226,7 @@ public class Profile {
                     <div className="window-dot bg-green-500"></div>
                     <span className="ml-2 text-sm text-gray-400 flex items-center gap-2">
                       <i className="fas fa-code"></i>
-                      Profile.java
+                      Profile.cs
                     </span>
                   </div>
                   <pre className="language-javascript">
